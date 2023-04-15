@@ -1,14 +1,16 @@
-// var keyword is used to declare and assign variables. It is function scoped.
-var x = 5;
-console.log(x); // Output: 5
+// // var keyword is used to declare and assign variables. It is function scoped.
+// var x = 5;
+// console.log(x); // Output: 5
 
-// let keyword is used to declare and assign variables. It is block scoped.
-let y = "hello";
-console.log(y); // Output: hello
+// // let keyword is used to declare and assign variables. It is block scoped.
+// let y = "hello";
+// console.log(y); // Output: hello
 
-// const keyword is used to declare constants. It cannot be reassigned.
-const z = true;
-console.log(z); // Output: true
+// // const keyword is used to declare constants. It cannot be reassigned.
+// const z = true;
+// console.log(z); // Output: true
+// // z = false;
+// // console.log(z); // Output: true
 
 
 
@@ -20,6 +22,7 @@ let myGlobal = "Hello, I am a global variable!";
 function foo() {
   // Accessing the global variable inside a function
   console.log(myGlobal);
+  // console.log(num);
 }
 
 foo(); // Output: Hello, I am a global variable!

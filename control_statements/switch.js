@@ -22,25 +22,27 @@
 
 
 //  ~~~~~~~~~~~~~ if/else if/else ~~~~~~~~~~~
-var dayOfWeek = "Monday";
+// var dayOfWeek = "Monday";
 
-if (dayOfWeek === "Monday") {
-  console.log("Time to go to work!");
-} else if (dayOfWeek === "Tuesday") {
-  console.log("Another work day!");
-} else if (dayOfWeek === "Wednesday") {
-  console.log("Halfway through the work week!");
-} else if (dayOfWeek === "Thursday") {
-  console.log("Almost there!");
-} else if (dayOfWeek === "Friday") {
-  console.log("Last day of work!");
-} else if (dayOfWeek === "Saturday") {
-  console.log("Enjoy your weekend!");
-} else if (dayOfWeek === "Sunday") {
-  console.log("Relax and recharge!");
-} else {
-  console.log("Invalid day.");
-}
+// if (dayOfWeek === "Monday") {
+//   console.log("Time to go to work!");
+// } else if (dayOfWeek === "Tuesday") {
+//   console.log("Time to go to work!");
+// } else if (dayOfWeek === "Wednesday") {
+//   console.log("Time to go to work!");
+// } else if (dayOfWeek === "Thursday") {
+//   console.log("Time to go to work!");
+// } else if (dayOfWeek === "Friday") {
+//   console.log("Time to go to work!");
+
+// } else if (dayOfWeek === "Saturday") {
+//   console.log("Enjoy your weekend!");
+// } else if (dayOfWeek === "Sunday") {
+//   console.log("Enjoy your weekend!");
+
+// } else {
+//   console.log("Invalid day.");
+// }
 //  ~~~~~~~~~~~~~END: if/else if/else ~~~~~~~~~~~
 
 
@@ -62,23 +64,23 @@ if (dayOfWeek === "Monday") {
 
 
 
-// //....................... Switch case .....................
-// let dayOfWeek = "Monday";
+//....................... Switch case .....................
+let dayOfWeek = "Monday";
 
-// switch (dayOfWeek) {
-//   case "Monday":
-//   case "Tuesday":
-//   case "Wednesday":
-//   case "Thursday":
-//   case "Friday":
-//     console.log("Time to go to work!");
-//     break;
-//   case "Saturday":
-//   case "Sunday":
-//     console.log("Enjoy your weekend!");
-//     break;
-//   default:
-//     console.log("Invalid day.");
-//     break;
-// }
+switch (dayOfWeek) {
+  case "Monday":
+  case "Tuesday":
+  case "Wednesday":
+  case "Thursday":
+  case "Friday":
+    console.log("Time to go to work!");
+    break;
+  case "Saturday":
+  case "Sunday":
+    console.log("Enjoy your weekend!");
+    break;
+  default:
+    console.log("Invalid day.");
+    break;
+}
 

@@ -9,6 +9,7 @@ console.log(a % b); // Output: 1
 
 // Assignment operators are used to assign values to variables.
 let c = 10;
+// c = c+5
 c += 5;
 console.log(c); // Output: 15
 
@@ -21,6 +22,9 @@ console.log(d >= e); // Output: true
 console.log(d <= e); // Output: false
 console.log(d == e); // Output: false
 console.log(d != e); // Output: true
+console.log(10 == "10"); // Output: true
+console.log(10 === "10"); // Output: false
+console.log(10 !== "10"); // Output: false
 
 // Logical operators are used to perform logical operations on boolean values.
 let f = true;
@@ -28,3 +32,7 @@ let g = false;
 console.log(f && g); // Output: false
 console.log(f || g); // Output: true
 console.log(!g); // Output: true
+
+console.log("Thanks,");
+console.log("For being an amazing audience?");
+console.log("100%, yes!");
