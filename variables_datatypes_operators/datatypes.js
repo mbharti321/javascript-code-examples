@@ -1,5 +1,6 @@
 // Strings are used to store and manipulate text.
-let str = "hello";
+let str = "hello"; 
+str = 10; 
 console.log(typeof str); // Output: string
 
 // Numbers are used to store and manipulate numeric values.
@@ -21,3 +22,4 @@ console.log(typeof u); // Output: undefined
 // Symbols are used to create unique identifiers.
 let sym = Symbol("mySymbol");
 console.log(typeof sym); // Output: symbol
+console.log(sym); // Output: symbol

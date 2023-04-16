@@ -1,5 +1,6 @@
 // var keyword is used to declare and assign variables. It is function scoped.
 var x = 5;
+// x= "hello"
 console.log(x); // Output: 5
 
 // let keyword is used to declare and assign variables. It is block scoped.
