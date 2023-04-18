@@ -4,6 +4,9 @@
     if (condition) {
         # // code to execute if condition is true
     }
+    else if(condition){
+        # // code to execute if condition is false
+    }
     else {
         # // code to execute if condition is false
     }
@@ -13,20 +16,21 @@
 */
 // Syntax End~~~~~~~~~~~~~~~~~~~~~~~
 
-let num = 5;
+let num = 100;
 
 // Using if/else statement to check if num is even or odd
 if (num % 2 === 0) {
   console.log(num + " is even.");
-} else {
-  console.log(num + " is odd.");
 }
 num = 6;
+
+
+
 // Using ternary operator to achieve the same result
 num % 2 === 0 ? console.log(num + " is even.") : console.log(num + " is odd.");
 
 
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~ Real example ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// // ~~~~~~~~~~~~~~~~~~~~~~~~~~~ Real example ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 let age = 20;
 
 // Using if/else statement to check if person is eligible to vote
