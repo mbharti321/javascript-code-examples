@@ -49,11 +49,11 @@ do {
 } while (k < 10);
 
 // // real world example
-let userInput;
+// let userInput;
 
-do {
-  userInput = prompt("Please enter a number between 1 and 10");
-} while (isNaN(userInput) || userInput < 1 || userInput > 10);
+// do {
+//   userInput = prompt("Please enter a number between 1 and 10");
+// } while (isNaN(userInput) || userInput < 1 || userInput > 10);
 
-console.log("You entered: " + userInput);
+// console.log("You entered: " + userInput);
 
