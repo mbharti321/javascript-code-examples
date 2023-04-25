@@ -25,11 +25,3 @@
     console.log(`Oh, so your name is ${name}`);
 ```
 ----
-/*
-way 2: using readline-sync
-Please install readline-sync using below command
-`npm install readline-sync`
-*/
-const readlineSync = require('readline-sync');
-const name = readlineSync.question('What is your name? ');
-console.log(`Oh, so your name is ${name}`);
