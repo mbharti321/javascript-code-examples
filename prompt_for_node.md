@@ -1,8 +1,6 @@
 # Different ways to get input from user in node console
 
-
-
-
+We will be using external libraries to achieve this.
 ## way 1: using prompt-sync
 - Please install prompt-sync using below command
 - `npm install prompt-sync`
