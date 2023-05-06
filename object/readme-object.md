@@ -22,9 +22,11 @@
 - Object.keys
 - Object.values
 
-### Question: how to get count of all properties?
+- Question: how to get count of all properties?
 
-## Real world object example
+### object with function(class)
+
+### Real world object example
 1. User object
 2. Product object
 3. Character object
@@ -35,3 +37,10 @@
 ### JSON:JavaScript Object Notation
 - for apis
 - Play ground: [Joke API](https://sv443.net/jokeapi/v2/)
+
+<!-- Task for the day -->
+1. Get 20/30 jokes(any form) from jokeapi and get counts of all categories jokes. 
+    - Output: 
+  `{'Programming': 7, 'Misc': 2, 'Dark': 5, 'Pun': 8, 'Spooky': 4, 'Christmas': 9}`
+
+  - Tips: Check how to get response from an api using node
