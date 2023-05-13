@@ -1,0 +1,41 @@
+<!-- ################### Inline javascript ###############-->
+<html>
+  <head>
+    <title>Inline JavaScript</title>
+  </head>
+  <body>
+    <h1>Inline JavaScript Example</h1>
+    <button onclick="alert('Hello, World! > Inline javascript')">
+      Click Me
+    </button>
+  </body>
+</html>
+
+<!-- ####################### Internal JavaScript: ############## -->
+<html>
+  <head>
+    <title>Internal JavaScript</title>
+    <script>
+      function sayHelloInternal() {
+        alert("Hello, World! > Internal JavaScript");
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Internal JavaScript Example</h1>
+    <button onclick="sayHelloInternal()">Click Me</button>
+  </body>
+</html>
+
+<!-- ####################### External JavaScript: ############## -->
+
+<html>
+  <head>
+    <title>External JavaScript</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>External JavaScript Example</h1>
+    <button onclick="sayHelloExternal()">Click Me</button>
+  </body>
+</html>

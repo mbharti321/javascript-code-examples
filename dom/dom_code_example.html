@@ -1,0 +1,149 @@
+<style>
+  button{
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 5px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  }
+</style>
+<!-- ## Accessing DOM Elements -->
+<!-- 1. getElementById   ##################################-->
+<!-- <!DOCTYPE html>
+<html>
+  <body>
+    <div id="myDiv">This is a div element.</div>
+
+    <script>
+      const divElement = document.getElementById("myDiv");
+      console.log(divElement.textContent);
+      for (let i = 0; i < 10; i++) {
+        console.log(divElement.textContent + " " + i);
+      }
+    </script>
+  </body>
+</html> -->
+
+<!-- 2. getElementsByClassName  ##################################-->
+<!-- <!DOCTYPE html>
+<html>
+  <body>
+    <p class="highlight">This is a paragraph with the class "highlight".</p>
+    <p class="highlight">
+      This is another paragraph with the class "highlight".
+    </p>
+
+    <script>
+      const elements = document.getElementsByClassName("highlight");
+      for (let i = 0; i < elements.length; i++) {
+        console.log(elements[i].textContent);
+      }
+    </script>
+  </body>
+</html> -->
+
+<!-- 3. getElementsByTagName  ##################################-->
+<!-- <!DOCTYPE html>
+<html>
+  <body>
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+
+    <script>
+      const elements2 = document.getElementsByTagName("p");
+      for (let i = 0; i < elements.length; i++) {
+        console.log(elements2[i].textContent);
+      }
+    </script>
+  </body>
+</html> -->
+
+<!-- 4. querySelector  ##################################-->
+<!-- <!DOCTYPE html>
+<html>
+  <body>
+    <div class="myDiv">This is a div element with class "myDiv".</div>
+
+    <script>
+      const divElement2 = document.querySelector(".myDiv");
+      console.log(divElement2.textContent);
+    </script>
+  </body>
+</html> -->
+
+<!-- 5. querySelectorAll  ##################################-->
+<!-- <!DOCTYPE html>
+<html>
+  <body>
+    <p class="highlight">This is a paragraph with the class "highlight".</p>
+    <p class="highlight">
+      This is another paragraph with the class "highlight".
+    </p>
+
+    <script>
+      const elements = document.querySelectorAll(".highlight");
+      for (let i = 0; i < elements.length; i++) {
+        console.log(elements[i].textContent);
+      }
+    </script>
+  </body>
+</html> -->
+
+<!-- ## Modifying DOM Elements ##########################################################################################-->
+
+<br>1. setAttribute ##################################<br>
+<!DOCTYPE html>
+<html>
+  <body>
+    <img id="myImage" src="dom_meme.png" alt="Image" /><br />
+    <button onclick="updatePic()">Click Me > setAttribute</button>
+
+    <script>
+      function updatePic() {
+        const imageElement = document.getElementById("myImage");
+        imageElement.setAttribute("src", "pic2.jpeg");
+        imageElement.setAttribute("alt", "New Image");
+      }
+    </script>
+  </body>
+</html>
+
+<br><br><br><br>2. textContent : to change text content ##################################-<br>
+<!DOCTYPE html>
+<html>
+  <body>
+    <p id="myParagraph">This is a paragraph.</p>
+    <button onclick="updateMe()">Click Me > textContent</button>
+
+    <script>
+      function updateMe() {
+        const paragraphElement = document.getElementById("myParagraph");
+        paragraphElement.textContent =
+          "This is the updated paragraphhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh.";
+      }
+    </script>
+  </body>
+</html>
+
+<br><br><br><br> 3. style: Modifying css Styles ##################################<br>
+<!DOCTYPE html>
+<html>
+  <body>
+    <p id="myParagraph2">This is a paragraph.</p>
+    <button onclick="updateMe2()">Click Me >style</button>
+
+    <script>
+      function updateMe2() {
+        const paragraphElement = document.getElementById("myParagraph2");
+        paragraphElement.style.color = "red";
+        paragraphElement.style.fontSize = "50px";
+      }
+    </script>
+  </body>
+</html>
