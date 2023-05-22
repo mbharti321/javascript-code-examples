@@ -15,7 +15,6 @@
   - invoked when a particular task completes
     - #### TODO: what's `callback hell`?
 
-
 2. setTimeout: 
   - `setTimeout(callback_function, time_to_wait)`
 
@@ -28,8 +27,9 @@
 -  callbacks for 
    -  success (`then()`) 
    -  and failure (`catch()`). 
- #### TODO: Get two jokes from joke API using `Promise` and check if both are same type.
-      - use only this link: https://v2.jokeapi.dev/joke/Any
+   -  
+    #### TODO: Get two jokes from joke API using `Promise` and check if both are same type.
+          - use only this link: https://v2.jokeapi.dev/joke/Any
 
 
 ### async/await
