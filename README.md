@@ -44,3 +44,23 @@ The `loops.js` file includes examples of for, while, and do/while loops for iter
 
 Feel free to use these examples as a starting point for your own JavaScript projects!
 
+
+
+
+
+
+
+
+
+RestFul APIS(crud)
+- GET > R
+- POST > C
+- PUT > U
+- DELETE >D
+- 
+- PATCH >
+
+Fecth data
+get> WWW.stule...com/student/ > all students
+get> WWW.stule...com/student/2 > only student with id =2
+

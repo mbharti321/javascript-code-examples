@@ -4,7 +4,11 @@
 - Creating API routes with Express.js to handle different HTTP methods
 - Postman for testing API
 
+
+## Upload code in github repo > Self exploration
 ---
+https://www.postman.com/downloads/
+https://httpstatusdogs.com/
 
 **Task 1(unit 2):** Create a calculator API
 
