@@ -4,7 +4,7 @@ const port = 4000;
 
 app.use(express.json());
 
-app.post('/calculator', (req, res) => {
+app.post('/calculator/add', (req, res) => {
   const { number1, number2, operation } = req.body;
 
     // ! not
